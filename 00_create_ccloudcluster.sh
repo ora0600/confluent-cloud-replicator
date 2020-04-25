@@ -113,7 +113,7 @@ status.storage.topic=connect-status
 status.storage.replication.factor=3
 # Flush much faster than normal, which is useful for testing/debugging
 offset.flush.interval.ms=10000
-plugin.path=/Users/cmutzlitz/software/confluent/share/java
+plugin.path=$CONFLUENT_HOME/share/java
 # Connection settings for destination Confluent Cloud Schema Registry
 schema.registry.url=$CCLOUD_SRURL
 schema.registry.client.basic.auth.credentials.source=USER_INFO
