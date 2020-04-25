@@ -13,11 +13,13 @@ This demo expects some preparation work, before you can execute the scripts. If 
 
 ## Pre-Configure
 the shell script `env-vars` has some variables which need to fit to your Confluent Cloud environment
-* Your Confluent Cloud Environment:  XX_CCLOUD_ENV=XXXXXX
+* Your Confluent Cloud Environment ID:  XX_CCLOUD_ENV=XXXXXX
+  The Confluent Cloud Environment ID can be listed via `ccloud environment list`
 * Your Confluent Cloud Login: XX_CCLOUD_EMAIL=YYYYYYY
 * Your Confluent Cloud Password: XX_CCLOUD_PASSWORD=ZZZZZZZZZ
 * The name for the Source Confluent Cluster: XX_CCLOUD_CLUSTERNAME1=SOURCEGCP
 * The name for the Target Confluent Cluster: XX_CCLOUD_CLUSTERNAME2=TARGETAWS
+* Please be sure that `CONFLUENT_HOME and PATH` is set in `.bashrc or .bash_profile` so that in terminal confluent tools can be executed 
 
 
 ## Start the demo showcase
