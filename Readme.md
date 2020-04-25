@@ -19,7 +19,7 @@ the shell script `env-vars` has some variables which need to fit to your Conflue
 * Your Confluent Cloud Password: XX_CCLOUD_PASSWORD=ZZZZZZZZZ
 * The name for the Source Confluent Cluster: XX_CCLOUD_CLUSTERNAME1=SOURCEGCP
 * The name for the Target Confluent Cluster: XX_CCLOUD_CLUSTERNAME2=TARGETAWS
-* Please be sure that `CONFLUENT_HOME and PATH` is set in `.bashrc or .bash_profile` so that in terminal confluent tools can be executed 
+* P* Please be sure that `CONFLUENT_HOME=INSTALLATON-DIR and PATH=$CONFLUENT_HOME/bin:PATH` is set in `-bashrc or .bash_profile` so that Confluent tools can be executed in terminals.
 
 
 ## Start the demo showcase
